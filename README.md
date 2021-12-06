@@ -42,7 +42,7 @@ let myCollection = [
     name: "School of Code hat",
     count: 2,
     whatILike: "An often overlooked fashion accessory"
-  },
+  }, 
   {
     name: "School of Code pillow",
     count: 1,
