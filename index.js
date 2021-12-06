@@ -18,12 +18,13 @@ let myCollection = [
 
   console.log(myCollection);
 
-  function describeItem(name){
-      if(count === 1){
-          console.log(`I have a ${name}. Here's what I like about it : ${whatILike}`);
-      }else{
-          if(count > 1)
-          console.log(`I have ${count} ${name}s. Here's what I like about them: ${whatILike}`);
+  function describeItem(item){
+      if(item.count === 1){
+          console.log(`I have a ${item.name}. Here's what I like about it : ${item.whatILike}`);
+      }
+      else{
+          //if(myCollection.count > 1)
+          console.log(`I have ${item.count} ${item.name}s. Here's what I like about them: ${item.whatILike}.`);
       }
     }
-    describeItem('School of Code pillow');
+   describeItem(myCollection[1]);
